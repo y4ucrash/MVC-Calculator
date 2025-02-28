@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Calculator";
+}
+
+<h1>Calculator</h1>
+<p>Enter two numbers and click the button to calculate the result.</p>
+
+<div class="calculator">
+    <input type="text" id="display" readonly />
+
+    <div class="grid-container">
+        <button class="btn" onclick="press('7')">7</button>
+        <button class="btn" onclick="press('8')">8</button>
+        <button class="btn" onclick="press('9')">9</button>
+        <button class="btn" onclick="press('/')">/</button>
+
+        <button class="btn" onclick="press('4')">4</button>
+        <button class="btn" onclick="press('5')">5</button>
+        <button class="btn" onclick="press('6')">6</button>
+        <button class="btn" onclick="press('*')">*</button>
+
+        <button class="btn" onclick="press('1')">1</button>
+        <button class="btn" onclick="press('2')">2</button>
+        <button class="btn" onclick="press('3')">3</button>
+        <button class="btn" onclick="press('-')">-</button>
+
+        <button class="btn" onclick="press('0')">7</button>
+        <button class="btn" onclick="clearDisplay()">C</button>
+        <button class="btn" onclick="calculateResult()">=</button>
+        <button class="btn" onclick="press('+')">+</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function press(value) {
+            document.getElementById('display').value += value;
+        }
+
+        function clearDisplay() {
+            document.getElementById('display').value = '';
+        }
+
+        function calculateResult() {
+            try{
+                document.getElementById('display').value = eval(document.getElementById('display').value);
+            } catch {
+                document.getElementById('display').value = 'Error';
+            }
+        }
+    </script>
+}
