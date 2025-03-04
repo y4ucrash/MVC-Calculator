@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj": {}
+    "c:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj": {
+    "c:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj",
+        "projectUniqueName": "c:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj",
         "projectName": "CalculatorApp",
-        "projectPath": "C:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj",
+        "projectPath": "c:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\CalculatorApp.csproj",
         "packagesPath": "C:\\Users\\y4ucr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\obj\\",
+        "outputPath": "c:\\Users\\y4ucr\\CodeSchool\\MVC-Calc\\CalculatorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\y4ucr\\AppData\\Roaming\\NuGet\\NuGet.Config"
